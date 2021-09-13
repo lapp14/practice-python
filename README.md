@@ -20,3 +20,13 @@ First starting off, create a pip environment:
   - The `assert` keyword is available without imports
 - Create a `test_assertions` function to check the length of an empty list, or something trivial just for now to verify that everythings working
 - Run `pytest` to see our single test pass
+
+## Creating a package
+- Create directory `car` and create `__init__.py`
+  - The `__init__.py` marks the directory as a "package", and helps to make local imports work
+- Make a `car.py` file for our Car class
+- Create a class called `Car`, with an `__init__` function
+
+### Testing the package
+- Import using `from car import car`
+
